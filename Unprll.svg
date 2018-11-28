@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120"
+   height="400"
+   version="1.1"
+   id="svg835"
+   sodipodi:docname="Unprll.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata841">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs839" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     id="namedview837"
+     showgrid="false"
+     inkscape:zoom="0.68888889"
+     inkscape:cx="11.049486"
+     inkscape:cy="187.57825"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg835" />
+  <polygon
+     points="45,20 60,40 30,40 "
+     id="polygon815"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:3"
+     transform="matrix(1.0841236,0,0,0.98734052,-29.271337,-17.15137)" />
+  <line
+     x1="19.514236"
+     y1="2.5954189"
+     x2="19.514236"
+     y2="150.69641"
+     id="line817"
+     style="stroke:#ffffff;stroke-width:3.10379982" />
+  <line
+     x1="19.514236"
+     y1="150.69641"
+     x2="100.82359"
+     y2="200.06317"
+     id="line819"
+     style="stroke:#ffffff;stroke-width:3.10379982" />
+  <line
+     x1="100.82359"
+     y1="200.06317"
+     x2="100.82359"
+     y2="397.53055"
+     id="line821"
+     style="stroke:#ffffff;stroke-width:3.10379982" />
+  <polygon
+     points="120,420 135,400 105,400 "
+     id="polygon823"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:3"
+     transform="matrix(1.0841236,0,0,0.98734052,-29.271337,-17.15137)" />
+  <polygon
+     points="120,100 135,120 105,120 "
+     id="polygon825"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:3"
+     transform="matrix(1.0841236,0,0,0.98734052,-29.271337,-17.15137)" />
+  <line
+     x1="100.82359"
+     y1="101.32937"
+     x2="100.82359"
+     y2="150.69641"
+     id="line827"
+     style="stroke:#ffffff;stroke-width:3.10379982" />
+  <line
+     x1="100.82359"
+     y1="150.69641"
+     x2="19.514236"
+     y2="209.93658"
+     id="line829"
+     style="stroke:#ffffff;stroke-width:3.10379982" />
+  <line
+     x1="19.514236"
+     y1="209.93658"
+     x2="19.514236"
+     y2="298.79752"
+     id="line831"
+     style="stroke:#ffffff;stroke-width:3.10379982" />
+  <polygon
+     points="45,330 60,310 30,310 "
+     id="polygon833"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:3"
+     transform="matrix(1.0841236,0,0,0.98734052,-29.271337,-17.15137)" />
+</svg>

@@ -1,29 +1,236 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Unprll is coming</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>Meet Unprll</title>
         <style media="screen">
-            html, body {
+            .container-fluid {
                 background: black;
-                width: 100vw;
-                height: 100vh;
-                margin: 0;
             }
 
-            h1 {
-                color: white;
-                width: 100vw;
-                height: 100vh;
-                line-height: 100vh;
-                font-family: sans-serif;
-                font-weight: 300;
-                margin: 0;
-                text-align: center;
+            * {
+                font-family: 'Work Sans', sans-serif;
+            }
+
+            img {
+                opacity: 0.8;
+            }
+
+            .page {
+                min-height: 100vh;
+            }
+
+            .monero-features .row {
+                height: 150px;
+            }
+
+            .jumbotron {
+                min-height: 100vh;
+                background: transparent;
+            }
+
+            .jumbotron .container {
+                background: rgba(10, 10, 10, 0.5);
+                padding: 1.5rem 0;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+            .particles-js-canvas-el {
+                position: absolute;
+                top: 0;
+                left: 0;
             }
         </style>
     </head>
-    <body>
-        <h1>Coming Soon</h1>
+    <body class="text-center text-light">
+        <nav class="navbar navbar-dark position-absolute w-100" style="background: transparent; z-index: 1">
+             <a class="navbar-brand" href="https://unprll.cash">Unprll</a>
+             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://explorer.unprll.cash">Blockchain Explorer</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <div class="jumbotron jumbotron-fluid m-0 pt-5" id="particle-background">
+                <div class="container">
+                    <!-- Thank you, Cabby ^^ -->
+                    <img class="img-fluid" src="Unprll.svg"/>
+                    <h1 class="display-4">Meet Unprll</h1>
+                    <p class="lead text-center">Digital privacy-oriented currency for the commons</p>
+                </div>
+            </div>
+            <div class="row page pt-5 p-sm-5" style="background: #111">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-center w-100">Built on a strong foundation</h1>
+                            <p class="col text-center">Unprll is built on the time-tested foundation of Monero, an implementation of the Cryptonote protocol.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card-group mt-4">
+                                <div class="card text-light" style="background: #111">
+                                    <div class="card-img-top">
+                                        <img src="icons/secure.svg" width="128px"/>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Secure</h5>
+                                        <p class="card-text">All transactions occur in a decentralized manner, with no trust assumed in any part of the network. You are your own bank, you have the rights to decide how your money is used.</p>
+                                    </div>
+                                </div>
+                                <div class="card text-light" style="background: #111">
+                                    <div class="card-img-top">
+                                        <img src="icons/private.svg" width="128px"/>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Private</h3>
+                                        <p class="card-text">Your money is your own business, so why make it public? Unprll ensures the privacy of all users by employing Ring signatures (hides senders), RingCT (hides amounts) and one-time addresses (hides receivers).</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-group">
+                                <div class="card text-light" style="background: #111">
+                                    <div class="card-img-top">
+                                        <img src="icons/untraceable.svg" width="128px"/>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Untraceable</h5>
+                                        <p class="card-text">Unprll's blockchain is resistant to analysis. Transactions cannot be traced to specific users or addresses, enhancing security.</p>
+                                    </div>
+                                </div>
+                                <div class="card text-light" style="background: #111">
+                                    <div class="card-img-top">
+                                        <img src="icons/fungible.svg" width="128px"/>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fungible</h5>
+                                        <p class="card-text">Unprll is fungible: any given coin is indistinguishable from another. Transactions cannot be linked, hence no one can reject your coins on the basis of being part of a different transaction.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row page pt-5 p-sm-5" style="background: #080808">
+                <div class="col">
+                    <h1 class="w-100">Added privacy features</h1>
+                    <p class="w-100 text-center">Enhancing those of Cryptonote and Monero.</p>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-2 mb-3 mb-md-0">
+                            <img src="icons/dandelion.svg" width="128px"/>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h3 class="text-left">Dandelion Propagation</h3>
+                            <p class="text-justify">Unprll implements the <a href="https://github.com/gfanti/bips/blob/master/bip-dandelion.mediawiki">Dandelion Protocol</a> to ensure transactions cannot be linked to a specific IP address, enhancing privacy.</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-2 mb-3 mb-md-0">
+                            <img src="icons/payment-ids.svg" width="128px"/>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h3 class="text-left">Encrypted Payment IDs for all transactions</h3>
+                            <p class="text-justify">All transactions have encrypted payment IDs to avoid leaking real inputs in situations where payment IDs are used (Example: exchanges)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row page pt-5 p-sm-5" style="background: #050505">
+                <div class="col">
+                    <h1 class="w-100">Accessible mining to all</h1>
+                    <p class="w-100 text-center">With a new Proof-of-Work (PoW) system improving upon Cryptonote, mining is truly egalitarian. Users can mine Unprll without fear of losing effectivity.</p>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-2 mb-3 mb-md-0">
+                            <img src="icons/cpu.svg" width="128px"/>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h3 class="text-left">CPU friendly</h3>
+                            <p class="text-justify">Unprll's PoW is sequential by design, which makes multithreading impossible. This offers CPUs an advantage over GPUs, FPGAs and ASICs.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-2 mb-3 mb-md-0">
+                            <img src="icons/hourglass.svg" width="128px"/>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h3 class="text-left">Futureproof</h3>
+                            <p class="text-justify">Unprll's PoW cannot be parallelized, hence single threaded performance is all that matters. Single threaded performance can be pushed up only to a certain extent, hence allowing for fair mining.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-2 mb-3 mb-md-0">
+                            <img src="icons/bot.svg" width="128px"/>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h3 class="text-left">Resistant to botnets</h3>
+                            <p class="text-justify">Unprll's PoW is designed such that all miners mining to one address obtain the same task, nullifying any effect of having multiple systems. This includes botnets, whose mining power is now limited to the fastest machine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row page pt-5 p-sm-5">
+                <div class="col-12 col-sm" style="border-right: 1px solid #CCC">
+                    <h1>Exchanges</h1>
+                    <p>Coming soon!</p>
+                </div>
+                <div class="col-12 col-sm" style="border-right: 1px solid #CCC">
+                    <h1>News</h1>
+                    <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/ctobiasull?ref_src=twsrc%5Etfw">Tweets by ctobiasull</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-12 col-sm">
+                    <h1>Downloads</h1>
+                    <div class="row text-left">
+                        <div class="col-12">
+                            <p>Command Line Binaries</p>
+                        </div>
+                        <div class="col-12 mr-3 pb-3">
+                            <ul>
+                                <li><a href="https://github.com/unprll-project/unprll/releases">Unprll GitHub Releases</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row text-left">
+                        <div class="col-12">
+                            <p>Whitepapers</p>
+                        </div>
+                        <div class="col-12 mr-3 pb-3">
+                            <ul>
+                                <li><a href="https://cryptonote.org/whitepaper.pdf">CryptoNote</a></li>
+                                <li><a href="https://lab.getmonero.org/pubs/MRL-0005.pdf">RingCT</a></li>
+                                <li><a href="unprll.pdf">Unprll</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="row p-3 d-flex justify-content-between" style="background: #222">
+                <p class="col-12 col-sm-5 m-0">Copyright (c) 2018, The Unprll Project. MPL License</p>
+                <p class="col-12 col-sm-7 m-0 text-sm-right">
+                    Some icons made by
+                    <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
+                    from
+                    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                    licensed under
+                    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                </p>
+            </footer>
+        </div>
+        <script src="https://unpkg.com/particles.js@2.0.0/particles.js" crossorigin="anonymous" integrity="sha384-AWFROZ10DoeXcNjhoQe0agryexFsipZEA17Cde6/tknpOUacvUGk27vXQ2a6ljSt" charset="utf-8"></script>
+        <script>
+            particlesJS.load("particle-background", "particlesjs-config.json", () => console.log("callback - particles.js config loaded"));
+        </script>
     </body>
 </html>
